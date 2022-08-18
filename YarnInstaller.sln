@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26507.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YarnInstaller", "src\YarnInstaller.csproj", "{12436DD1-DD48-47D1-B334-720665572FD8}"
 EndProject
@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		CHANGELOG.md = CHANGELOG.md
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "YarnInstallerShared", "YarnInstallerShared\YarnInstallerShared.shproj", "{06740D35-12FD-407A-AABE-2A1C0154CAA3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,5 +27,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB6C11B4-5B2C-4B86-846A-DA20330E990B}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		YarnInstallerShared\YarnInstallerShared.projitems*{06740d35-12fd-407a-aabe-2a1c0154caa3}*SharedItemsImports = 13
+		YarnInstallerShared\YarnInstallerShared.projitems*{12436dd1-dd48-47d1-b334-720665572fd8}*SharedItemsImports = 4
 	EndGlobalSection
 EndGlobal
