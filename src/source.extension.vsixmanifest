@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
-	<Metadata>
-		<Identity Id="54ec7bf0-19bb-467f-a5a5-15ad0492653b" Version="0.5" Language="en-US" Publisher="Mads Kristensen" />
-		<DisplayName>Yarn Installer</DisplayName>
-		<Description xml:space="preserve">Makes it easy to restore npm packages using Yarn from within Visual Studio</Description>
-		<MoreInfo>https://github.com/madskristensen/YarnInstaller</MoreInfo>
-		<License>LICENSE</License>
-		<ReleaseNotes>https://github.com/madskristensen/YarnInstaller/blob/master/CHANGELOG.md</ReleaseNotes>
-		<Icon>Resources\Icon.png</Icon>
-		<PreviewImage>Resources\Icon.png</PreviewImage>
-		<Tags>yarn, npm</Tags>
-	</Metadata>
-	<Installation>
-		<InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[14.0,18.0)">
-			<ProductArchitecture>amd64</ProductArchitecture>
-		</InstallationTarget>
-	</Installation>
-	<Assets>
-		<Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
-		<Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%|" />
-	</Assets>
-	<Prerequisites>
-		<Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,)" DisplayName="Visual Studio core editor" />
-	</Prerequisites>
+    <Metadata>
+        <Identity Id="54ec7bf0-19bb-467f-a5a5-15ad0492653b" Version="0.6" Language="en-US" Publisher="Sergio Jimenez" />
+        <DisplayName>Yarn Installer 2022</DisplayName>
+        <Description xml:space="preserve">Makes it easy to restore npm packages using Yarn from within Visual Studio. Update of the extension created by Mads Kristensen (https://github.com/madskristensen/YarnInstaller)</Description>
+        <MoreInfo>https://github.com/sjm00010/YarnInstaller</MoreInfo>
+        <License>LICENSE</License>
+        <ReleaseNotes>https://github.com/sjm00010/YarnInstaller/blob/master/README.md</ReleaseNotes>
+        <Icon>Icon.png</Icon>
+        <PreviewImage>Icon.png</PreviewImage>
+        <Tags>yarn, npm</Tags>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17. 3.1,18.0)">
+            <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
+    </Installation>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
+        <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%|" />
+    </Assets>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,)" DisplayName="Visual Studio core editor" />
+    </Prerequisites>
 </PackageManifest>

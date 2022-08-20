@@ -23,7 +23,4 @@
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)YarnPackage.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="$(MSBuildThisFileDirectory)Resources\Icon.png" />
-  </ItemGroup>
 </Project>
