@@ -1,6 +1,6 @@
 # Yarn Installer 2022
 
-[![Build status](https://ci.appveyor.com/api/projects/status/uu24tixpd3ck3m0c?svg=true)](https://ci.appveyor.com/project/sjm00010/yarninstaller)
+[![Build status](https://ci.appveyor.com/api/projects/status/github/sjm00010/yarninstaller?svg=true)](https://ci.appveyor.com/project/sjm00010/yarninstaller)
 
 IMPORTANT : This project is an adaptation of [Mads Kristensen's](https://github.com/madskristensen) [Yarn Installer project](https://github.com/madskristensen/YarnInstaller) to adapt it to VS 2022.
 
@@ -22,7 +22,7 @@ Automatically run `yarn install` when saving *package.json* by enabling it in th
 
 Remember to disable the built-in `npm restore` when you do this (see below).
 
-## Disable npm restore (VS2017 only)
+## Disable npm restore
 By default Visual Studio will call `npm install` when *package.json* is saved and also when a project containing a *package.json* file is being opened.
 
 To turn off the automatic calls to `npm install`, disable them in the **Tools -> Options** dialog.
